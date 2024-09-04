@@ -68,9 +68,7 @@ def AdminChoice(choice):
         print("Thank you for using our program")
 
 def StandChoice(choice):
-    if choice == 1:
-        bookLeave(u, lstLeave)
-    elif choice == 2:
+    if choice == 2:
         print(f"You have {lstLeave[u]} days left")
     elif choice == 3:
         print("Thank you for using our program")
